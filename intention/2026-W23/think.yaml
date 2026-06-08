@@ -10,7 +10,7 @@ intentions:
       label: 高
       description: 可拓展监督模式被验证有效，推动认知方法论落地
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到辩论模型可稳定产出章程
     risk:
@@ -28,7 +28,7 @@ intentions:
       label: 高
       description: 整个实验的核心假设，辐射范围最广
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到意图工程成为默认方法论
     risk:

@@ -10,7 +10,7 @@ intentions:
       label: 高
       description: 独占当周首要关注，财务离职后优先级提升
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到反脆弱机制内化为团队默认运作方式
     risk:
@@ -28,7 +28,7 @@ intentions:
       label: 高
       description: 与反脆弱同属组织管理核心议题，共享注意力
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到制度与文化达到平衡
     risk:

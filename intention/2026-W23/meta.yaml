@@ -10,8 +10,8 @@ intentions:
       label: 低
       description: 背景建设任务，非当周紧急事项
     trigger:
-      name: upon
-      label: 条件
+      name: conditional
+      label: 条件触发
       description: 系统边界稳定后推进
     risk:
       name: low

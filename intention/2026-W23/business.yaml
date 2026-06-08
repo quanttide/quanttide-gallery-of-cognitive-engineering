@@ -10,8 +10,8 @@ intentions:
       label: 低
       description: 多个早期想法并行，均处于概念验证阶段
     trigger:
-      name: upon
-      label: 条件
+      name: conditional
+      label: 条件触发
       description: POC 验证可行后再结构化复制
     risk:
       name: high

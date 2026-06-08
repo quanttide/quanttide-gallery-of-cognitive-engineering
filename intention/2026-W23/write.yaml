@@ -10,7 +10,7 @@ intentions:
       label: 高
       description: 一周内从原型走向成型，进展显著
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到叙事工程框架稳定可用
     risk:

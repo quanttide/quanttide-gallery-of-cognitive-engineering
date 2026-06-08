@@ -10,7 +10,7 @@ intentions:
       label: 高
       description: 元意图——独占注意力，是所有其他意图的基础前提
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到心理调节机制内化为自动习惯
     risk:

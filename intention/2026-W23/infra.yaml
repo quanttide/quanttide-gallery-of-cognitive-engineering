@@ -10,7 +10,7 @@ intentions:
       label: 高
       description: 基础设施安全决定上层创新的安全边界
     trigger:
-      name: until
+      name: persistent
       label: 持续
       description: 直到基础设施达到可自主维护状态
     risk:
@@ -28,8 +28,8 @@ intentions:
       label: 低
       description: 基础设施的子问题，等待主架构稳定后处理
     trigger:
-      name: upon
-      label: 条件
+      name: conditional
+      label: 条件触发
       description: 基础设施架构稳定后
     risk:
       name: low

@@ -10,8 +10,8 @@ intentions:
       label: 低
       description: 远期探索，范式方向尚未收敛
     trigger:
-      name: upon
-      label: 条件
+      name: conditional
+      label: 条件触发
       description: 当前工具形成明确瓶颈时深入
     risk:
       name: high
