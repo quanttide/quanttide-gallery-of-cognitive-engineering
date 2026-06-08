@@ -19,3 +19,9 @@
   label: 叙事工程
 - name: health
   label: 身心健康
+- name: human
+  label: 人力资源
+- name: finance
+  label: 财务管理
+- name: legal
+  label: 法务管理
