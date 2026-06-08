@@ -1,0 +1,10 @@
+situation: health
+intentions:
+  - name: 调节工作节奏与维护心理可持续性
+    agent: founder
+    level: bottom
+    content: 通过节奏调整和意义重建避免倦怠
+    motivation: experience
+    priority: high; monopolizes
+    timing: until 心理调节机制内化为自动习惯
+    uncertainty: medium; 无意义感是高压探索的固有产物

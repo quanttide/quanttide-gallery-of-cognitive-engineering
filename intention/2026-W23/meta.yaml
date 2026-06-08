@@ -1,0 +1,10 @@
+situation: meta
+intentions:
+  - name: 确立标准化与元智能的治理体系
+    agent: founder
+    level: middle
+    content: 合并冗余领域、统一命名规范、明确 1.0 标准
+    motivation: goal
+    priority: low; shares
+    timing: upon 系统边界稳定后
+    uncertainty: low

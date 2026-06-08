@@ -1,0 +1,19 @@
+situation: org
+intentions:
+  - name: 建立反脆弱的团队运作机制
+    agent: founder
+    level: middle
+    content: 让团队在核心成员流失等冲击下维持基本盘，形成反脆弱能力
+    motivation: understanding
+    priority: high; monopolizes
+    timing: until 反脆弱机制内化为团队默认运作方式
+    uncertainty: medium; 反脆弱与文化转型的节奏难以并行
+
+  - name: 实现从人治到法治的文化转型
+    agent: founder
+    level: top
+    content: 在制度化的同时保留人情温度，找到中间态
+    motivation: understanding
+    priority: high; shares
+    timing: until 制度与文化达到平衡
+    uncertainty: high; 中间态的具体形态尚未明确

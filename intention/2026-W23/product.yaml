@@ -1,0 +1,10 @@
+situation: product
+intentions:
+  - name: 设计适应 AI 协作的交互范式
+    agent: founder
+    level: middle
+    content: 探索可编辑阅读器等适应 AI 表达习惯的新交互范式
+    motivation: understanding
+    priority: low; shares
+    timing: upon 当前工具形成明确瓶颈
+    uncertainty: high; 范式方向尚未收敛

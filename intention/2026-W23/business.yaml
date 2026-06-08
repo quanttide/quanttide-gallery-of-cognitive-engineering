@@ -1,0 +1,10 @@
+situation: business
+intentions:
+  - name: 探索可持续的新商业模式
+    agent: founder
+    level: middle
+    content: 开拓课程、代码诊断、商业孵化器等新收入来源
+    motivation: goal
+    priority: low; shares
+    timing: upon POC 验证可行
+    uncertainty: high; 多个早期想法尚未验证

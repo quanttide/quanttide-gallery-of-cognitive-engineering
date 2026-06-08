@@ -1,0 +1,19 @@
+situation: infra
+intentions:
+  - name: 构建安全可靠的平台基础设施
+    agent: founder
+    level: bottom
+    content: 建立自动化的备份与同步体系，确保代码和数据安全
+    motivation: goal
+    priority: high; shares
+    timing: until 基础设施达到可自主维护状态
+    uncertainty: low
+
+  - name: 理清工具链的归属与分工
+    agent: founder
+    level: bottom
+    content: 确定运维、开发、基础设施三者的边界和协作关系
+    motivation: experience
+    priority: low; shares
+    timing: upon 基础设施稳定后
+    uncertainty: low

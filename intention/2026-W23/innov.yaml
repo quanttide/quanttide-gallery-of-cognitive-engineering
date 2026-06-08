@@ -1,0 +1,19 @@
+situation: innov
+intentions:
+  - name: 建立以 POC 为核心的快速探索范式
+    agent: founder
+    level: middle
+    content: 通过大量小规模 POC 快速验证想法，用低成本试错替代规划
+    motivation: experience
+    priority: high; shares
+    timing: until POC 范式成为默认探索方式
+    uncertainty: low
+
+  - name: 利用低耗能模式维持产出
+    agent: founder
+    level: bottom
+    content: 在疲劳状态下借助 AI 降低认知负担，维持产出
+    motivation: experience
+    priority: low; shares
+    timing: upon 疲劳状态
+    uncertainty: low
