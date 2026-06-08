@@ -19,6 +19,8 @@
   label: 叙事工程
 - name: health
   label: 身心健康
+- name: devops
+  label: DevOps
 - name: human
   label: 人力资源
 - name: finance
