@@ -1,0 +1,23 @@
+- id: f1d72505-b7a4-49f1-9f51-ffaf3755c455
+  title: 构建标准化平台架构
+  description: 从混乱的多系统并存中找到统一的架构标准，通过"自我标准化"构建以标准为核心的平台体系
+  motivation: 数据流向不清和系统分拆困惑引发了对标准化的深层思考
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"平台可维护可演化"服务
+  priority:
+    name: medium
+    label: 中
+    description: 自我标准化的提出是本条最大的认知跃迁
+  trigger:
+    name: persistent
+    label: 持续
+    description: 自我标准化作为系统元能力的长期方向
+  risk:
+    name: medium
+    label: 中
+    description: 标准化需要收敛和稳定，与涌现方法论的开放式探索存在节奏矛盾

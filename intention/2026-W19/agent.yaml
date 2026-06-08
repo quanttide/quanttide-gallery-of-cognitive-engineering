@@ -1,0 +1,23 @@
+- id: 8529a34a-1f13-49c4-95ca-f6e79b2f8b13
+  title: 确立以人为中心的AI协作范式
+  description: 在AI能力快速演进的背景下找到以人类意图为中心、兼顾可控性与表达力的AI协作范式
+  motivation: '"每人配一个秘书"的AI协作理想被提出，但模型vs框架的终极追问尚未收敛'
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"构建AI驱动的创业体系"服务
+  priority:
+    name: low
+    label: 低
+    description: 全周持续探索但核心问题未收敛
+  trigger:
+    name: conditional
+    label: 条件触发
+    description: 模型与框架的取舍问题收敛后深入
+  risk:
+    name: high
+    label: 高
+    description: 模型更强但不可控vs框架可控但适应性不足，核心矛盾未解决

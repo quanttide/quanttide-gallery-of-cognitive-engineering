@@ -1,0 +1,23 @@
+- id: 163ebbdc-bad5-453a-a730-dccd10f669d2
+  title: 加速研发迭代与平台化
+  description: 以最低成本快速验证技术想法并建立可复用的平台能力
+  motivation: 实验室模式显著加速开发，POC标准化将验证成本降到极低
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"高效研发"服务
+  priority:
+    name: high
+    label: 高
+    description: 本周最impactful的工程发现
+  trigger:
+    name: persistent
+    label: 持续
+    description: POC标准化模式已确立
+  risk:
+    name: low
+    label: 低
+    description: 研发速度与质量的张力可通过POC范式管理

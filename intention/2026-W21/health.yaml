@@ -1,0 +1,23 @@
+- id: beb829ed-d98e-4559-8d83-f29ac587f4a3
+  title: 理解并管理创造状态的频谱
+  description: 在创造流与精力耗竭之间找到平衡，将精力作为最稀缺资源进行系统性管理
+  motivation: 发现"滑翔"状态——高度沉浸高速整合却又最需要休息
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: bottom
+    label: 底层
+    description: 为所有其他意图提供精力保障
+  priority:
+    name: high
+    label: 高
+    description: 全周持续的元张力，唯一的瓶颈就是精力
+  trigger:
+    name: persistent
+    label: 持续
+    description: 精力管理被定位为所有工程活动的元约束
+  risk:
+    name: high
+    label: 高
+    description: 创造流让人不想停，与精力耗竭的生理限制形成根本矛盾

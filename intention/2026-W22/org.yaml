@@ -1,0 +1,23 @@
+- id: e4b3c5d5-960f-41c6-be79-3bf29dddd183
+  title: 搭建高效团队与招聘体系
+  description: 通过系统化筛选、培训和分工构建可扩展的组织能力
+  motivation: 秘书处重组后能力断层暴露，招聘需求从数量扩张转向质量筛选
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"组织可扩展"服务
+  priority:
+    name: medium
+    label: 中
+    description: 人事云理念在本周确立但秘书处断层尚未解决
+  trigger:
+    name: persistent
+    label: 持续
+    description: 组织能力成为研发效率的瓶颈
+  risk:
+    name: medium
+    label: 中
+    description: 研发效率大幅提升但组织能力滞后，异步发展需要协调

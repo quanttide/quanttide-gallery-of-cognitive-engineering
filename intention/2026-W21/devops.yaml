@@ -1,0 +1,23 @@
+- id: c2218ab0-5965-47f8-99ca-cc31f48a5801
+  title: 搭建多语言自动化研发工具链
+  description: 用多语言实现覆盖发布、重构、知识管理的CLI工具链，以流水线固化研发习惯
+  motivation: 平台进度受限于工具链，从Python到Rust迁移后发现结构化优势
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"高效研发"服务
+  priority:
+    name: high
+    label: 高
+    description: 0.1→0.2版本跃迁，工具链生态初步成型
+  trigger:
+    name: persistent
+    label: 持续
+    description: Skill→Command的演化路径已确立
+  risk:
+    name: medium
+    label: 中
+    description: Rust迁移带来短期生产力下降

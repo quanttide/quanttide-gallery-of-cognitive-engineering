@@ -1,0 +1,23 @@
+- id: bbbbc74d-d756-44a8-a784-9110c7422f25
+  title: 从实际问题蒸馏数据标准化体系
+  description: 从实际工程问题出发蒸馏数据契约和标准化方案，确立"工具包即契约"的代码宪法地位
+  motivation: 对比DCP协议后发现现成框架不适合非结构化数据场景
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"系统可维护"服务
+  priority:
+    name: low
+    label: 低
+    description: 全周潜行但影响力渗透在所有工程活动中
+  trigger:
+    name: conditional
+    label: 条件触发
+    description: 实际工程问题出现时自然沉淀
+  risk:
+    name: low
+    label: 低
+    description: 蒸馏式策略灵活，跨情境一致性可通过上层抽象协调

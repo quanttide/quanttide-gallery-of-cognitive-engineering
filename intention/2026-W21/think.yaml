@@ -1,0 +1,69 @@
+- id: 00c977ce-f73e-41a6-9dcf-cb2ae081384a
+  title: 外化认知系统并实现自主演化
+  description: 将认知过程外化为可独立运行的双系统，实现从监督到自主演化的渐进过渡
+  motivation: AI总结说"开始外化认知系统，让它脱离独立存在"
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: top
+    label: 顶层
+    description: 为所有其他意图提供认知架构基础
+  priority:
+    name: high
+    label: 高
+    description: 本周标志性进展——外化跨越的转折点
+  trigger:
+    name: persistent
+    label: 持续
+    description: System Two→One的知识传递闭环已初步建立
+  risk:
+    name: medium
+    label: 中
+    description: 外化程度越高对系统依赖越大，判断边界仍需人类监督
+- id: 0e1825b6-401f-4427-ac1d-6265430af385
+  title: 构建隐性经验显性化的知识工程流水线
+  description: 将founder的高密度上下文通过降维解压转化为AI可消化的知识结构
+  motivation: 发现"生成共识的过程就是知识抽取的过程"
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"知识驱动创业"服务
+  priority:
+    name: high
+    label: 高
+    description: 0.2版本验证了核心假设，本周最重要的工程突破
+  trigger:
+    name: persistent
+    label: 持续
+    description: 元建模策略已确立
+  risk:
+    name: medium
+    label: 中
+    description: 知识抽取效率与保真度之间存在先验矛盾
+- id: 7625ba87-b89d-441e-8f88-a0ff096bd13d
+  title: 确立生产级研发的新范式
+  description: 建立"生产级实验"的混合研发模式，版本号作为迭代工具而非发布标记
+  motivation: 宣布进入生产级研发但发现是"生产级实验"的非线性切换
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"高效研发"服务
+  priority:
+    name: medium
+    label: 中
+    description: 全周逐步结晶的范式原则
+  trigger:
+    name: persistent
+    label: 持续
+    description: 执行成本趋近于零，认知成本成为唯一瓶颈
+  risk:
+    name: medium
+    label: 中
+    description: 实验速度与生产质量之间存在张力

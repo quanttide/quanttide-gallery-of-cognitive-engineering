@@ -1,0 +1,23 @@
+- id: ab0708cf-ee43-4863-847a-0c5fa48cf36d
+  title: 管理认知负荷与维持可持续节奏
+  description: 在高强度高复杂度的创始人工作中建立可持续的工作节奏和情绪调节机制
+  motivation: 身体疲惫达到峰值，发现"不敢说困难"在现实与创作中的同构
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: bottom
+    label: 底层
+    description: 为所有其他意图提供运作前提
+  priority:
+    name: high
+    label: 高
+    description: 贯穿全周，影响所有其他意图的执行质量
+  trigger:
+    name: persistent
+    label: 持续
+    description: 作为所有其他意图的基础保障
+  risk:
+    name: medium
+    label: 中
+    description: 情感隔离作为应对策略与团队协作需求之间存在张力

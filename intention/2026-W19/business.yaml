@@ -1,0 +1,23 @@
+- id: 57841717-1be9-4e16-81a8-7a71bf4a0fb4
+  title: 实现从项目驱动到大单驱动的商业模式转型
+  description: 从大量小额项目的焦虑中解放，建立以十万以上大单为核心的可持续商业模式
+  motivation: 放弃小红书等低效销售线索行为，意识到"不敢等才是最大阻碍"
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"可持续创业"服务的商业模式目标
+  priority:
+    name: high
+    label: 高
+    description: 05-07从焦虑到战略的完整转变发生在这天
+  trigger:
+    name: persistent
+    label: 持续
+    description: 平台构建本身成为获取大单的素材，形成正反馈
+  risk:
+    name: medium
+    label: 中
+    description: Token费用对商业模式构成现实约束，大单周期长与现金流之间存在张力

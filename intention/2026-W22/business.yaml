@@ -1,0 +1,23 @@
+- id: 46921356-1b38-4da1-8ec0-e5def7cf48dd
+  title: 实现商业验证与收入增长
+  description: 获取付费客户、实现收入并验证咨询服务的市场有效性
+  motivation: 大客户意向确定但battle暴露磨合摩擦
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"可持续创业"服务
+  priority:
+    name: high
+    label: 高
+    description: 整周经历完整客户转化周期
+  trigger:
+    name: persistent
+    label: 持续
+    description: 取舍和边界作为核心策略已确立
+  risk:
+    name: medium
+    label: 中
+    description: 商业验证需要快速交付，与认知工程框架的长期投入存在资源竞争

@@ -1,0 +1,46 @@
+- id: f6892150-f603-4c47-a67c-a4daaf1c4f89
+  title: 建立以二阶控制论为框架的认知工程方法论
+  description: 以二阶控制论为框架将观察置于干预之前，让AI理解人类意图，加速认知收敛
+  motivation: 智谱点醒"二阶控制论"概念，与自己的直觉高度吻合
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: top
+    label: 顶层
+    description: 为所有其他意图提供元框架
+  priority:
+    name: medium
+    label: 中
+    description: 理论框架确立但执行层面存在结构性障碍
+  trigger:
+    name: persistent
+    label: 持续
+    description: 作为认知工程的长期理论框架
+  risk:
+    name: medium
+    label: 中
+    description: 理论高抽象度与"从细节到全貌"的具体执行路径之间存在断裂
+- id: d864d716-e1fd-412b-80b1-016b10f15353
+  title: 建立以涌现为核心的快速研发方法论
+  description: 在认知未收敛时通过追求表达速度和重构中的涌现来替代传统前置系统设计
+  motivation: 发现"原来这就是涌现"——框架不在设计时确定而在重构中涌现
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: middle
+    label: 中层
+    description: 为顶层"高效研发"服务的方法论目标
+  priority:
+    name: high
+    label: 高
+    description: 05-05涌现突破是全周的重要认知节点
+  trigger:
+    name: persistent
+    label: 持续
+    description: 作为研发方法论的长期指导原则
+  risk:
+    name: medium
+    label: 中
+    description: 涌现方法论追求速度，与标准化追求稳定之间存在根本方法论张力

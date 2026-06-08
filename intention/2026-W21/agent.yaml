@@ -1,0 +1,23 @@
+- id: d99b852a-3e02-4a7f-9d4c-50a9d7ee545b
+  title: 设计人机协同的权责体系与组织架构
+  description: 将AI智能体和规则引擎纳入组织架构，实现"人类立宪+AI立法"的协作模式
+  motivation: 发现AI在区分自身权责上有困难，需要"原规则"
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: top
+    label: 顶层
+    description: 为所有协作活动提供组织框架
+  priority:
+    name: high
+    label: 高
+    description: 本周最具前瞻性的意图
+  trigger:
+    name: persistent
+    label: 持续
+    description: 多智能体关系保存机制已被提出但尚未实现
+  risk:
+    name: high
+    label: 高
+    description: 人类立宪需要预见性，太多未知可能使宪法过于宽泛或过于僵化
