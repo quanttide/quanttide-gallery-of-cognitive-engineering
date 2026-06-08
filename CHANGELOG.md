@@ -8,18 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Added
 
-- Initial repository setup with README
-- Notion case archive (`notion/`)
+- README: project description
 - AGENTS.md: document repository purpose
+- `notion/` → `thought/`: weekly thinking records (W19-W23)
 - `situation/` directory: weekly situation definitions (W19-W23)
 - `intention/` directory: weekly intention files (W19-W23)
-
-### Changed
-
-- `notion/` → `thought/`: directory renamed
-- `situation/` labels: shortened to concise names (e.g. "商业模式探索" → "商务拓展")
-- `intention/` fields: restructured and standardized (trigger, risk, UUID, etc.)
-
-### Removed
-
-- `situation/2026-W23/org.json`: replaced by YAML format
+- `.quanttide/devops/release-journal.jsonl`: release journal
