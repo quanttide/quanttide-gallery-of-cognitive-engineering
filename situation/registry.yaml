@@ -32,4 +32,4 @@
 - name: innov
   label: 创新管理
 - name: auth
-  label: 数字身份
+  label: 身份认证
