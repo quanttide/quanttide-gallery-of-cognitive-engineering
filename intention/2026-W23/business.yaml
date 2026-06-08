@@ -1,10 +1,19 @@
 situation: business
 intentions:
-  - name: 探索可持续的新商业模式
+  - title: 探索可持续的新商业模式
     agent: founder
     level: middle
-    content: 开拓课程、代码诊断、商业孵化器等新收入来源
-    motivation: goal
-    priority: low; shares
-    timing: upon POC 验证可行
-    uncertainty: high; 多个早期想法尚未验证
+    description: 开拓课程、代码诊断、商业孵化器等新收入来源
+    motivation: 商务报价章程验证了从章程到产出的路线可行，新想法涌现
+    priority:
+      name: low
+      label: 低
+      description: 多个早期想法并行，均处于概念验证阶段
+    timing:
+      name: upon
+      label: 条件
+      description: POC 验证可行后再结构化复制
+    uncertainty:
+      name: high
+      label: 高
+      description: 多个早期想法尚未经过市场验证

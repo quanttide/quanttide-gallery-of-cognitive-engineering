@@ -1,10 +1,19 @@
 situation: product
 intentions:
-  - name: 设计适应 AI 协作的交互范式
+  - title: 设计适应 AI 协作的交互范式
     agent: founder
     level: middle
-    content: 探索可编辑阅读器等适应 AI 表达习惯的新交互范式
-    motivation: understanding
-    priority: low; shares
-    timing: upon 当前工具形成明确瓶颈
-    uncertainty: high; 范式方向尚未收敛
+    description: 探索可编辑阅读器等适应 AI 表达习惯的新交互范式
+    motivation: 现有编辑器和文档工具无法适应 AI 日益多样化的表达形式
+    priority:
+      name: low
+      label: 低
+      description: 远期探索，范式方向尚未收敛
+    timing:
+      name: upon
+      label: 条件
+      description: 当前工具形成明确瓶颈时深入
+    uncertainty:
+      name: high
+      label: 高
+      description: 范式方向（可编辑阅读器）尚未被验证

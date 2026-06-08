@@ -1,19 +1,37 @@
 situation: think
 intentions:
-  - name: 建立人机协同的反思与辩论模型
+  - title: 建立人机协同的反思与辩论模型
     agent: founder + AI
     level: middle
-    content: 通过 AI 自我辩论和人类反馈的交替收敛实现高质量反思
-    motivation: understanding
-    priority: high; shares
-    timing: until 辩论模型可稳定产出章程
-    uncertainty: medium; 人类介入时机仍需校准
+    description: 通过 AI 自我辩论和人类反馈的交替收敛实现高质量反思
+    motivation: 发现 AI 自收敛会困在局部最优，人类反馈能跳出框架
+    priority:
+      name: high
+      label: 高
+      description: 可拓展监督模式被验证有效，推动认知方法论落地
+    timing:
+      name: until
+      label: 持续
+      description: 直到辩论模型可稳定产出章程
+    uncertainty:
+      name: medium
+      label: 中
+      description: 人类介入的时机和频率仍需校准
 
-  - name: 将意图工程作为认知工程的核心方法论
+  - title: 将意图工程作为认知工程的核心方法论
     agent: founder
     level: top
-    content: 以意图为基本单元驱动一切结构化生成过程
-    motivation: understanding
-    priority: high; monopolizes
-    timing: until 意图工程成为默认方法论
-    uncertainty: high; 核心假设尚未被大规模验证
+    description: 以意图为基本单元驱动一切结构化生成过程
+    motivation: 智谱意外验证了"意图工程"概念，发现它恰好是自己一直在做的
+    priority:
+      name: high
+      label: 高
+      description: 整个实验的核心假设，辐射范围最广
+    timing:
+      name: until
+      label: 持续
+      description: 直到意图工程成为默认方法论
+    uncertainty:
+      name: high
+      label: 高
+      description: 核心假设尚未被大规模验证，POC范式与结构化收敛存在张力

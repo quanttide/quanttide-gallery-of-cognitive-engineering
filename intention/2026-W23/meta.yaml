@@ -1,10 +1,19 @@
 situation: meta
 intentions:
-  - name: 确立标准化与元智能的治理体系
+  - title: 确立标准化与元智能的治理体系
     agent: founder
     level: middle
-    content: 合并冗余领域、统一命名规范、明确 1.0 标准
-    motivation: goal
-    priority: low; shares
-    timing: upon 系统边界稳定后
-    uncertainty: low
+    description: 合并冗余领域、统一命名规范、明确 1.0 标准
+    motivation: 领域过多、命名混乱增加了维护负担，标准化需要合并回元职能
+    priority:
+      name: low
+      label: 低
+      description: 背景建设任务，非当周紧急事项
+    timing:
+      name: upon
+      label: 条件
+      description: 系统边界稳定后推进
+    uncertainty:
+      name: low
+      label: 低
+      description: 方向明确（合并回元职能、缩写规则归并）

@@ -1,10 +1,19 @@
 situation: health
 intentions:
-  - name: 调节工作节奏与维护心理可持续性
+  - title: 调节工作节奏与维护心理可持续性
     agent: founder
     level: bottom
-    content: 通过节奏调整和意义重建避免倦怠
-    motivation: experience
-    priority: high; monopolizes
-    timing: until 心理调节机制内化为自动习惯
-    uncertainty: medium; 无意义感是高压探索的固有产物
+    description: 通过节奏调整和意义重建避免倦怠，保障所有其他意图持续运作
+    motivation: 无意义感随高压探索反复出现，发现整合带来的清晰感是最有效的对冲
+    priority:
+      name: high
+      label: 高
+      description: 元意图——独占注意力，是所有其他意图的基础前提
+    timing:
+      name: until
+      label: 持续
+      description: 直到心理调节机制内化为自动习惯
+    uncertainty:
+      name: medium
+      label: 中
+      description: 无意义感是高压探索的固有产物，无法完全消除只能对冲

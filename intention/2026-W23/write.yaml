@@ -1,10 +1,19 @@
 situation: write
 intentions:
-  - name: 打磨写作云与叙事工程框架
+  - title: 打磨写作云与叙事工程框架
     agent: founder
     level: middle
-    content: 建立标准化的叙事创作工具链，让 AI 辅助而非替代创作
-    motivation: understanding
-    priority: high; shares
-    timing: until 叙事工程框架成型
-    uncertainty: medium; 结构化与创作自由的张力未完全解决
+    description: 建立标准化的叙事创作工具链，让 AI 辅助而非替代人类创作
+    motivation: 写作云原型发现后经历了碎片整合到框架成型的完整演进
+    priority:
+      name: high
+      label: 高
+      description: 一周内从原型走向成型，进展显著
+    timing:
+      name: until
+      label: 持续
+      description: 直到叙事工程框架稳定可用
+    uncertainty:
+      name: medium
+      label: 中
+      description: 叙事工程的结构化与创作的自由本质之间存在张力
