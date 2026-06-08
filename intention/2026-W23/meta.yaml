@@ -1,4 +1,7 @@
-- title: 确立标准化与元智能的治理体系
+- id: 9ba11e9d-89ae-4018-9916-4fc436ec68c0
+  title: 确立标准化与元智能的治理体系
+  description: 合并冗余领域、统一命名规范、明确 1.0 标准
+  motivation: 领域过多、命名混乱增加了维护负担，标准化需要合并回元职能
   agent:
     name: founder
     label: 创始人
@@ -6,8 +9,6 @@
     name: middle
     label: 中层
     description: 为顶层意图服务的阶段性目标
-  description: 合并冗余领域、统一命名规范、明确 1.0 标准
-  motivation: 领域过多、命名混乱增加了维护负担，标准化需要合并回元职能
   priority:
     name: low
     label: 低

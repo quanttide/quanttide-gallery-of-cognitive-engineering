@@ -1,4 +1,7 @@
-- title: 建立反脆弱的团队运作机制
+- id: 7e112fcc-c1dd-4c43-b00a-56e9a8c4b4bc
+  title: 建立反脆弱的团队运作机制
+  description: 让团队在核心成员流失等冲击下维持基本盘，形成反脆弱能力
+  motivation: 财务离职事件暴露了团队韧性缺口，需要从被动应对转向主动设计
   agent:
     name: founder
     label: 创始人
@@ -6,8 +9,6 @@
     name: middle
     label: 中层
     description: 为顶层意图服务的阶段性目标
-  description: 让团队在核心成员流失等冲击下维持基本盘，形成反脆弱能力
-  motivation: 财务离职事件暴露了团队韧性缺口，需要从被动应对转向主动设计
   priority:
     name: high
     label: 高
@@ -20,8 +21,10 @@
     name: medium
     label: 中
     description: 短期反脆弱与长期文化转型的节奏难以并行
-
-- title: 实现从人治到法治的文化转型
+- id: 4cdb95b0-fe1b-4d8a-9c5e-d28874930ae7
+  title: 实现从人治到法治的文化转型
+  description: 在制度化的同时保留人情温度，找到法治与人治的中间态
+  motivation: 制度化后人情温度流失，需要以意图共识而非制度强制来维持秩序
   agent:
     name: founder
     label: 创始人
@@ -29,8 +32,6 @@
     name: top
     label: 顶层
     description: 为所有意图提供元框架和方向
-  description: 在制度化的同时保留人情温度，找到法治与人治的中间态
-  motivation: 制度化后人情温度流失，需要以意图共识而非制度强制来维持秩序
   priority:
     name: high
     label: 高

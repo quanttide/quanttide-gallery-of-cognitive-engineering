@@ -1,4 +1,7 @@
-- title: 调节工作节奏与维护心理可持续性
+- id: a71ec650-927b-47f1-a891-bea6dc92d3c1
+  title: 调节工作节奏与维护心理可持续性
+  description: 通过节奏调整和意义重建避免倦怠，保障所有其他意图持续运作
+  motivation: 无意义感随高压探索反复出现，发现整合带来的清晰感是最有效的对冲
   agent:
     name: founder
     label: 创始人
@@ -6,8 +9,6 @@
     name: bottom
     label: 底层
     description: 为上层意图提供基础条件保障
-  description: 通过节奏调整和意义重建避免倦怠，保障所有其他意图持续运作
-  motivation: 无意义感随高压探索反复出现，发现整合带来的清晰感是最有效的对冲
   priority:
     name: high
     label: 高
