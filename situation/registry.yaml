@@ -7,8 +7,8 @@
   label: 基础设施
 - name: think
   label: 认知工程
-- name: innov
-  label: 创新管理
+- name: agent
+  label: 智能体工程
 - name: business
   label: 商务拓展
 - name: meta
