@@ -9,11 +9,11 @@ intentions:
       name: high
       label: 高
       description: 一周内从原型走向成型，进展显著
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到叙事工程框架稳定可用
-    uncertainty:
+    risk:
       name: medium
       label: 中
       description: 叙事工程的结构化与创作的自由本质之间存在张力

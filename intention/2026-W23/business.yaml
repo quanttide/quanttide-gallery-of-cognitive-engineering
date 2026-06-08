@@ -9,11 +9,11 @@ intentions:
       name: low
       label: 低
       description: 多个早期想法并行，均处于概念验证阶段
-    timing:
+    trigger:
       name: upon
       label: 条件
       description: POC 验证可行后再结构化复制
-    uncertainty:
+    risk:
       name: high
       label: 高
       description: 多个早期想法尚未经过市场验证

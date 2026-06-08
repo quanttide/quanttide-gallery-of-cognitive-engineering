@@ -9,11 +9,11 @@ intentions:
       name: high
       label: 高
       description: 基础设施安全决定上层创新的安全边界
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到基础设施达到可自主维护状态
-    uncertainty:
+    risk:
       name: low
       label: 低
       description: 技术路径明确（双云端同步、消息队列、Rust重写）
@@ -27,11 +27,11 @@ intentions:
       name: low
       label: 低
       description: 基础设施的子问题，等待主架构稳定后处理
-    timing:
+    trigger:
       name: upon
       label: 条件
       description: 基础设施架构稳定后
-    uncertainty:
+    risk:
       name: low
       label: 低
       description: code/infra/devops 分工模型已初步确立

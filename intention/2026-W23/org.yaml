@@ -9,11 +9,11 @@ intentions:
       name: high
       label: 高
       description: 独占当周首要关注，财务离职后优先级提升
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到反脆弱机制内化为团队默认运作方式
-    uncertainty:
+    risk:
       name: medium
       label: 中
       description: 短期反脆弱与长期文化转型的节奏难以并行
@@ -27,11 +27,11 @@ intentions:
       name: high
       label: 高
       description: 与反脆弱同属组织管理核心议题，共享注意力
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到制度与文化达到平衡
-    uncertainty:
+    risk:
       name: high
       label: 高
       description: 中间态的具体形态尚未明确，可能通过意图工程间接实现

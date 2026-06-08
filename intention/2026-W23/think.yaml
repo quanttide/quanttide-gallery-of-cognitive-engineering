@@ -9,11 +9,11 @@ intentions:
       name: high
       label: 高
       description: 可拓展监督模式被验证有效，推动认知方法论落地
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到辩论模型可稳定产出章程
-    uncertainty:
+    risk:
       name: medium
       label: 中
       description: 人类介入的时机和频率仍需校准
@@ -27,11 +27,11 @@ intentions:
       name: high
       label: 高
       description: 整个实验的核心假设，辐射范围最广
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到意图工程成为默认方法论
-    uncertainty:
+    risk:
       name: high
       label: 高
       description: 核心假设尚未被大规模验证，POC范式与结构化收敛存在张力

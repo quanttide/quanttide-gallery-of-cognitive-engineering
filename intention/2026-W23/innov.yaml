@@ -9,11 +9,11 @@ intentions:
       name: high
       label: 高
       description: 贯穿 4 天，从具体方法抽象为方法论
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到 POC 范式成为默认探索方式
-    uncertainty:
+    risk:
       name: low
       label: 低
       description: 方法已反复验证有效（实验室模式、AI补全器）
@@ -27,11 +27,11 @@ intentions:
       name: low
       label: 低
       description: 被动策略，仅在疲劳状态下启用
-    timing:
+    trigger:
       name: upon
       label: 条件
       description: 疲劳或低决策能力状态时启用
-    uncertainty:
+    risk:
       name: low
       label: 低
       description: 低耗能策略已多次验证可行

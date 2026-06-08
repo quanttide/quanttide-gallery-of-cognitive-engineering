@@ -9,11 +9,11 @@ intentions:
       name: low
       label: 低
       description: 远期探索，范式方向尚未收敛
-    timing:
+    trigger:
       name: upon
       label: 条件
       description: 当前工具形成明确瓶颈时深入
-    uncertainty:
+    risk:
       name: high
       label: 高
       description: 范式方向（可编辑阅读器）尚未被验证

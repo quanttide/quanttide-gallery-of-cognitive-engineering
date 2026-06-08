@@ -9,11 +9,11 @@ intentions:
       name: high
       label: 高
       description: 元意图——独占注意力，是所有其他意图的基础前提
-    timing:
+    trigger:
       name: until
       label: 持续
       description: 直到心理调节机制内化为自动习惯
-    uncertainty:
+    risk:
       name: medium
       label: 中
       description: 无意义感是高压探索的固有产物，无法完全消除只能对冲
