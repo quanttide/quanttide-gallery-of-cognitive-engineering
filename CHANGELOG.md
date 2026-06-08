@@ -4,10 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [0.1.0] - 2026-06-09
 
 ### Added
 
+- Initial repository setup with README
+- Notion case archive (`notion/`)
 - AGENTS.md: document repository purpose
 - `situation/` directory: weekly situation definitions (W19-W23)
 - `intention/` directory: weekly intention files (W19-W23)
@@ -21,10 +23,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Removed
 
 - `situation/2026-W23/org.json`: replaced by YAML format
-
-## [0.1.0] - 2026-06-05
-
-### Added
-
-- Initial repository setup with README
-- Notion case archive (`notion/`)
