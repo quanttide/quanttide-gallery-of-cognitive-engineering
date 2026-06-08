@@ -1,47 +1,45 @@
-situation: infra
-intentions:
-  - title: 构建安全可靠的平台基础设施
-    agent:
-      name: founder
-      label: 创始人
-    level:
-      name: bottom
-      label: 底层
-      description: 为上层意图提供基础条件保障
-    description: 建立自动化的备份与同步体系，确保代码和数据安全
-    motivation: 命令行删库风险暴露了基础设施薄弱环节，需要从被动防守升级为主动设计
-    priority:
-      name: high
-      label: 高
-      description: 基础设施安全决定上层创新的安全边界
-    trigger:
-      name: persistent
-      label: 持续
-      description: 直到基础设施达到可自主维护状态
-    risk:
-      name: low
-      label: 低
-      description: 技术路径明确（双云端同步、消息队列、Rust重写）
+- title: 构建安全可靠的平台基础设施
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: bottom
+    label: 底层
+    description: 为上层意图提供基础条件保障
+  description: 建立自动化的备份与同步体系，确保代码和数据安全
+  motivation: 命令行删库风险暴露了基础设施薄弱环节，需要从被动防守升级为主动设计
+  priority:
+    name: high
+    label: 高
+    description: 基础设施安全决定上层创新的安全边界
+  trigger:
+    name: persistent
+    label: 持续
+    description: 直到基础设施达到可自主维护状态
+  risk:
+    name: low
+    label: 低
+    description: 技术路径明确（双云端同步、消息队列、Rust重写）
 
-  - title: 理清工具链的归属与分工
-    agent:
-      name: founder
-      label: 创始人
-    level:
-      name: bottom
-      label: 底层
-      description: 为上层意图提供基础条件保障
-    description: 确定运维、开发、基础设施三者的边界和协作关系
-    motivation: 实践中发现工具链归属不清导致架构熵增
-    priority:
-      name: low
-      label: 低
-      description: 基础设施的子问题，等待主架构稳定后处理
-    trigger:
-      name: conditional
-      label: 条件触发
-      description: 基础设施架构稳定后
-    risk:
-      name: low
-      label: 低
-      description: code/infra/devops 分工模型已初步确立
+- title: 理清工具链的归属与分工
+  agent:
+    name: founder
+    label: 创始人
+  level:
+    name: bottom
+    label: 底层
+    description: 为上层意图提供基础条件保障
+  description: 确定运维、开发、基础设施三者的边界和协作关系
+  motivation: 实践中发现工具链归属不清导致架构熵增
+  priority:
+    name: low
+    label: 低
+    description: 基础设施的子问题，等待主架构稳定后处理
+  trigger:
+    name: conditional
+    label: 条件触发
+    description: 基础设施架构稳定后
+  risk:
+    name: low
+    label: 低
+    description: code/infra/devops 分工模型已初步确立
