@@ -21,6 +21,8 @@
   label: 身心健康
 - name: devops
   label: DevOps
+- name: agent
+  label: 智能体工程
 - name: human
   label: 人力资源
 - name: finance
