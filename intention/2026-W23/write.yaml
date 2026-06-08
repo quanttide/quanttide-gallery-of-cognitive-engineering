@@ -1,8 +1,13 @@
 situation: write
 intentions:
   - title: 打磨写作云与叙事工程框架
-    agent: founder
-    level: middle
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: middle
+      label: 中层
+      description: 为顶层意图服务的阶段性目标
     description: 建立标准化的叙事创作工具链，让 AI 辅助而非替代人类创作
     motivation: 写作云原型发现后经历了碎片整合到框架成型的完整演进
     priority:

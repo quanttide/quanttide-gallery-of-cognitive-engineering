@@ -1,8 +1,13 @@
 situation: innov
 intentions:
   - title: 建立以 POC 为核心的快速探索范式
-    agent: founder
-    level: middle
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: middle
+      label: 中层
+      description: 为顶层意图服务的阶段性目标
     description: 通过大量小规模 POC 快速验证想法，用低成本试错替代大规模规划
     motivation: 默认日志作为 POC 入口效果显著，验证了快速试错的可行性
     priority:
@@ -19,8 +24,13 @@ intentions:
       description: 方法已反复验证有效（实验室模式、AI补全器）
 
   - title: 利用低耗能模式维持产出
-    agent: founder
-    level: bottom
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: bottom
+      label: 底层
+      description: 为上层意图提供基础条件保障
     description: 在疲劳状态下借助 AI 降低认知负担，维持持续产出
     motivation: 发现低耗能时仍能维持产出，说明 AI 补全机制足够成熟
     priority:

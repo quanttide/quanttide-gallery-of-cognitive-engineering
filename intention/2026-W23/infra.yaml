@@ -1,8 +1,13 @@
 situation: infra
 intentions:
   - title: 构建安全可靠的平台基础设施
-    agent: founder
-    level: bottom
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: bottom
+      label: 底层
+      description: 为上层意图提供基础条件保障
     description: 建立自动化的备份与同步体系，确保代码和数据安全
     motivation: 命令行删库风险暴露了基础设施薄弱环节，需要从被动防守升级为主动设计
     priority:
@@ -19,8 +24,13 @@ intentions:
       description: 技术路径明确（双云端同步、消息队列、Rust重写）
 
   - title: 理清工具链的归属与分工
-    agent: founder
-    level: bottom
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: bottom
+      label: 底层
+      description: 为上层意图提供基础条件保障
     description: 确定运维、开发、基础设施三者的边界和协作关系
     motivation: 实践中发现工具链归属不清导致架构熵增
     priority:

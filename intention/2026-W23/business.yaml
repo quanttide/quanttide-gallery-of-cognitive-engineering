@@ -1,8 +1,13 @@
 situation: business
 intentions:
   - title: 探索可持续的新商业模式
-    agent: founder
-    level: middle
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: middle
+      label: 中层
+      description: 为顶层意图服务的阶段性目标
     description: 开拓课程、代码诊断、商业孵化器等新收入来源
     motivation: 商务报价章程验证了从章程到产出的路线可行，新想法涌现
     priority:

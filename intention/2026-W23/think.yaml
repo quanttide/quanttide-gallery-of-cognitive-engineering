@@ -1,8 +1,13 @@
 situation: think
 intentions:
   - title: 建立人机协同的反思与辩论模型
-    agent: founder + AI
-    level: middle
+    agent:
+      name: founder_ai
+      label: 创始人+AI
+    level:
+      name: middle
+      label: 中层
+      description: 为顶层意图服务的阶段性目标
     description: 通过 AI 自我辩论和人类反馈的交替收敛实现高质量反思
     motivation: 发现 AI 自收敛会困在局部最优，人类反馈能跳出框架
     priority:
@@ -19,8 +24,13 @@ intentions:
       description: 人类介入的时机和频率仍需校准
 
   - title: 将意图工程作为认知工程的核心方法论
-    agent: founder
-    level: top
+    agent:
+      name: founder
+      label: 创始人
+    level:
+      name: top
+      label: 顶层
+      description: 为所有意图提供元框架和方向
     description: 以意图为基本单元驱动一切结构化生成过程
     motivation: 智谱意外验证了"意图工程"概念，发现它恰好是自己一直在做的
     priority:
