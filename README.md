@@ -1,2 +1,1 @@
-# quanttide-gallery-of-cognitive-engineering
-量潮认知工程画廊
+# 量潮认知工程案例
