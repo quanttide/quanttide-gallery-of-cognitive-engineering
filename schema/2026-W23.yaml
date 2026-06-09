@@ -15,7 +15,8 @@
       outcome: 低成本放弃
   boundaries:
     - 适用于商业和研发探索
-    - 忽略高投入长期项目
+    - 排除高投入长期项目
+    - 验证周期不超过两周
   dynamics:
     验证成本: 低
     复制效率: 高
@@ -34,26 +35,27 @@
   entities:
     - 元意图:
       - 可持续性
-      - 基础条件
+      - 维护状态
     - 工作意图:
-      - 探索
-      - 产出
+      - 探索状态
+      - 产出质量
   causals:
     - condition: 元意图得到维护
-      outcome: 其他意图可持续运作
+      outcome: 工作意图可持续运作
     - condition: 元意图被忽视
       outcome: 高压探索产生无意义感
   boundaries:
     - 适用于高压探索阶段
-    - 忽略短期冲刺场景
+    - 排除短期冲刺场景
+    - 需要操作者对自身状态有觉察能力
   dynamics:
-    维护频率: 每日
     恢复成本: 高
+    维护频率: 每日
   mappings:
     - intent: 保持心理可持续
-      action: 早睡早起低耗能模式
+      action: 早睡早起并切换到低耗能模式
     - intent: 对冲无意义感
-      action: 整合带来清晰感
+      action: 执行整合
   biases:
     - id: c2d3e4f5-a6b7-8901-def2-345678901234
       belief: 高压探索必须牺牲健康
@@ -63,23 +65,24 @@
   label: 体系化治理
   entities:
     - 基础设施:
-      - 备份
-      - 工具链
-      - 架构
+      - 备份策略
+      - 工具链归属
+      - 架构边界
     - 治理体系:
       - 标准化
       - 自动化
       - 分工
   causals:
-    - condition: 被动防守备份
-      outcome: 数据丢失风险
+    - condition: 被动防守备份且工具链归属不清
+      outcome: 数据丢失风险和维护负担增加
     - condition: 主动设计体系
       outcome: 安全可靠平台
   boundaries:
     - 适用于多云端环境
-    - 忽略单机简单场景
+    - 排除单机简单场景
+    - 需要至少三个实例才进入抽象层
   dynamics:
-    抽象风险: 随复杂度增加
+    抽象风险: 随复杂度递增
   mappings:
     - intent: 防数据丢失
       action: 建立自动化备份
@@ -94,26 +97,27 @@
   label: 人机协作循环
   entities:
     - 人类:
-      - 洞察
-      - 反馈
+      - 洞察供给
+      - 反馈质量
     - AI:
-      - 补全
-      - 整合
+      - 补全能力
+      - 整合能力
   causals:
-    - condition: 人类提供洞察
-      outcome: AI补全整合
-    - condition: AI整合后
-      outcome: 驱动上升循环
+    - condition: 人类提供充足洞察
+      outcome: AI有效补全并整合
+    - condition: AI整合完成
+      outcome: 驱动下一轮上升循环
   boundaries:
     - 适用于研发探索
-    - 忽略纯机械重复任务
+    - 排除纯机械重复任务
+    - 需要AI达到可补全的质量水平
   dynamics:
     循环速度: 随自动化程度提升
   mappings:
     - intent: 快速发现洞察
-      action: 使用POC和AI补全器
+      action: 启动POC，AI作为补全器
     - intent: 维持低耗能产出
-      action: 依赖AI自动化
+      action: 依赖AI自动化，人类仅提供方向
   biases:
     - id: e4f5a6b7-c8d9-0123-f567-890123456789
       belief: AI可完全替代人类洞察
@@ -127,22 +131,23 @@
       - 自我维护
     - 系统:
       - 成熟度
-      - 规则
+      - 规则依赖
   causals:
     - condition: 元智能成熟
       outcome: 系统自我维护
     - condition: 元智能不成熟
       outcome: 规则依赖人工维护
   boundaries:
-    - 适用于治理体系
-    - 忽略一次性规则制定
+    - 适用于系统治理体系
+    - 排除一次性规则制定
+    - 需要系统运行至少三个月有足够演化数据
   dynamics:
     成熟度: 随迭代递增
   mappings:
     - intent: 建立标准化
-      action: 归并规则集
+      action: 归并冗余规则集
     - intent: 提升系统成熟度
-      action: 培养元智能
+      action: 培养元智能而非推动标准化本身
   biases:
     - id: f5a6b7c8-d9e0-1234-6789-012345678901
       belief: 标准化是终点工作
@@ -160,18 +165,19 @@
   causals:
     - condition: 依赖人治
       outcome: 组织温度高但脆弱
-    - condition: 建立制度
-      outcome: 韧性增强但可能失去温度
+    - condition: 建立制度且保留弹性
+      outcome: 韧性增强且温度不骤降
   boundaries:
-    - 适用于初创团队
-    - 忽略成熟大企业
+    - 适用于中小型组织（5-50人）
+    - 排除成熟大企业
+    - 需要创始人对组织温度有敏感性
   dynamics:
-    温度损失: 随制度化增加
+    温度损失: 随制度化速度递增
   mappings:
     - intent: 应对人员流失
       action: 建立反脆弱机制
     - intent: 文化转型
-      action: 平衡人治与法治
+      action: 法治与人治同步推进
   biases:
     - id: a6b7c8d9-e0f1-2345-7890-123456789012
       belief: 招人补位即可解决
@@ -186,21 +192,23 @@
     - 交互范式:
       - 阅读器
       - 编辑器
+      - 块编辑器
   causals:
-    - condition: AI表达多样化
+    - condition: AI表达超越传统文档边界
       outcome: 传统编辑器不适应
-    - condition: 重新思考为阅读器
+    - condition: 从阅读器角度重新设计
       outcome: 适应AI协作
   boundaries:
     - 适用于AI协作场景
-    - 忽略传统文档编辑
+    - 排除传统文档编辑
+    - 需要AI底层操作足够可靠
   dynamics:
     适应度: 随范式转变提升
   mappings:
     - intent: 适应AI表达
       action: 设计可编辑阅读器
     - intent: 缓解AI注意力不足
-      action: 分解组件设计
+      action: 分解组件分别设计
   biases:
     - id: b7c8d9e0-f1a2-3456-8901-234567890123
       belief: 改进UI技巧即可
@@ -219,20 +227,21 @@
     - condition: 人类反馈打破AI局部最优
       outcome: 辩论收敛
     - condition: 辩论产出章程
-      outcome: 结构化知识
+      outcome: 获得结构化知识
   boundaries:
     - 适用于人机协同
-    - 忽略单机推理
+    - 排除单机推理
+    - 需要以章程为辩论目标
   dynamics:
     收敛速度: 随反馈质量提升
   mappings:
     - intent: 发现意图
       action: 进行人机辩论
     - intent: 生成章程
-      action: 利用辩论产物
+      action: 将辩论产物结构化
   biases:
     - id: c8d9e0f1-a2b3-4567-9012-345678901234
-      belief: AI可自行收敛
+      belief: AI可自行收敛到最优
       fact: 人类反馈是打破框架的关键
 
 - id: c9d0e1f2-a3b4-5678-0123-456789012345
@@ -243,15 +252,16 @@
       - 框架
     - 方法论:
       - 3R
-      - 本体
+      - 本体关系
   causals:
     - condition: 原型验证可行
       outcome: 框架成型
     - condition: 整合力量驱动
-      outcome: 上升循环
+      outcome: 上升循环推进
   boundaries:
     - 适用于叙事工程
-    - 忽略非结构化写作
+    - 排除非结构化写作
+    - 需要足够碎片积累后才能整合
   dynamics:
     迭代周期: 随整合加速
   mappings:
