@@ -1,13 +1,15 @@
 - id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
   label: 低门槛验证
   entities:
-    - 新想法:
-      - 可行性
-      - 门槛
-    - 验证手段:
-      - POC
-      - 章程
-      - 原型
+    - name: 新想法
+      attributes:
+        - 可行性
+        - 门槛
+    - name: 验证手段
+      attributes:
+        - POC
+        - 章程
+        - 原型
   causals:
     - condition: 新想法通过低门槛验证
       outcome: 可行后结构化复制
@@ -17,7 +19,7 @@
     - 适用于商业和研发探索
     - 排除高投入长期项目
     - 验证周期不超过两周
-  dynamics:
+  properties:
     验证成本: 低
     复制效率: 高
   mappings:
@@ -33,12 +35,14 @@
 - id: b2c3d4e5-f6a7-8901-cdef-123456789012
   label: 元意图保障
   entities:
-    - 元意图:
-      - 可持续性
-      - 维护状态
-    - 工作意图:
-      - 探索状态
-      - 产出质量
+    - name: 元意图
+      attributes:
+        - 可持续性
+        - 维护状态
+    - name: 工作意图
+      attributes:
+        - 探索状态
+        - 产出质量
   causals:
     - condition: 元意图得到维护
       outcome: 工作意图可持续运作
@@ -48,7 +52,7 @@
     - 适用于高压探索阶段
     - 排除短期冲刺场景
     - 需要操作者对自身状态有觉察能力
-  dynamics:
+  properties:
     恢复成本: 高
     维护频率: 每日
   mappings:
@@ -64,14 +68,16 @@
 - id: c3d4e5f6-a7b8-9012-ef34-567890123456
   label: 体系化治理
   entities:
-    - 基础设施:
-      - 备份策略
-      - 工具链归属
-      - 架构边界
-    - 治理体系:
-      - 标准化
-      - 自动化
-      - 分工
+    - name: 基础设施
+      attributes:
+        - 备份策略
+        - 工具链归属
+        - 架构边界
+    - name: 治理体系
+      attributes:
+        - 标准化
+        - 自动化
+        - 分工
   causals:
     - condition: 被动防守备份且工具链归属不清
       outcome: 数据丢失风险和维护负担增加
@@ -81,7 +87,7 @@
     - 适用于多云端环境
     - 排除单机简单场景
     - 需要至少三个实例才进入抽象层
-  dynamics:
+  properties:
     抽象风险: 随复杂度递增
   mappings:
     - intent: 防数据丢失
@@ -96,12 +102,14 @@
 - id: d4e5f6a7-b8c9-0123-f456-789012345678
   label: 人机协作循环
   entities:
-    - 人类:
-      - 洞察供给
-      - 反馈质量
-    - AI:
-      - 补全能力
-      - 整合能力
+    - name: 人类
+      attributes:
+        - 洞察供给
+        - 反馈质量
+    - name: AI
+      attributes:
+        - 补全能力
+        - 整合能力
   causals:
     - condition: 人类提供充足洞察
       outcome: AI有效补全并整合
@@ -111,7 +119,7 @@
     - 适用于研发探索
     - 排除纯机械重复任务
     - 需要AI达到可补全的质量水平
-  dynamics:
+  properties:
     循环速度: 随自动化程度提升
   mappings:
     - intent: 快速发现洞察
@@ -126,12 +134,14 @@
 - id: e5f6a7b8-c9d0-1234-5678-901234567890
   label: 元智能成熟
   entities:
-    - 元智能:
-      - 标准化
-      - 自我维护
-    - 系统:
-      - 成熟度
-      - 规则依赖
+    - name: 元智能
+      attributes:
+        - 标准化
+        - 自我维护
+    - name: 系统
+      attributes:
+        - 成熟度
+        - 规则依赖
   causals:
     - condition: 元智能成熟
       outcome: 系统自我维护
@@ -141,7 +151,7 @@
     - 适用于系统治理体系
     - 排除一次性规则制定
     - 需要系统运行至少三个月有足够演化数据
-  dynamics:
+  properties:
     成熟度: 随迭代递增
   mappings:
     - intent: 建立标准化
@@ -156,12 +166,14 @@
 - id: f6a7b8c9-d0e1-2345-7890-123456789012
   label: 反脆弱转型
   entities:
-    - 团队:
-      - 韧性
-      - 人治温度
-    - 制度:
-      - 法治
-      - 标准化
+    - name: 团队
+      attributes:
+        - 韧性
+        - 人治温度
+    - name: 制度
+      attributes:
+        - 法治
+        - 标准化
   causals:
     - condition: 依赖人治
       outcome: 组织温度高但脆弱
@@ -171,7 +183,7 @@
     - 适用于中小型组织（5-50人）
     - 排除成熟大企业
     - 需要创始人对组织温度有敏感性
-  dynamics:
+  properties:
     温度损失: 随制度化速度递增
   mappings:
     - intent: 应对人员流失
@@ -186,13 +198,15 @@
 - id: a7b8c9d0-e1f2-3456-8901-234567890123
   label: 范式级交互
   entities:
-    - AI表达:
-      - 多样化
-      - 超越传统
-    - 交互范式:
-      - 阅读器
-      - 编辑器
-      - 块编辑器
+    - name: AI表达
+      attributes:
+        - 多样化
+        - 超越传统
+    - name: 交互范式
+      attributes:
+        - 阅读器
+        - 编辑器
+        - 块编辑器
   causals:
     - condition: AI表达超越传统文档边界
       outcome: 传统编辑器不适应
@@ -202,7 +216,7 @@
     - 适用于AI协作场景
     - 排除传统文档编辑
     - 需要AI底层操作足够可靠
-  dynamics:
+  properties:
     适应度: 随范式转变提升
   mappings:
     - intent: 适应AI表达
@@ -217,12 +231,14 @@
 - id: b8c9d0e1-f2a3-4567-9012-345678901234
   label: 意图工程
   entities:
-    - 人类意图:
-      - 驱动
-      - 反馈
-    - 辩论:
-      - 收敛
-      - 章程生成
+    - name: 人类意图
+      attributes:
+        - 驱动
+        - 反馈
+    - name: 辩论
+      attributes:
+        - 收敛
+        - 章程生成
   causals:
     - condition: 人类反馈打破AI局部最优
       outcome: 辩论收敛
@@ -232,7 +248,7 @@
     - 适用于人机协同
     - 排除单机推理
     - 需要以章程为辩论目标
-  dynamics:
+  properties:
     收敛速度: 随反馈质量提升
   mappings:
     - intent: 发现意图
@@ -247,12 +263,14 @@
 - id: c9d0e1f2-a3b4-5678-0123-456789012345
   label: 迭代框架成型
   entities:
-    - 写作云:
-      - 原型
-      - 框架
-    - 方法论:
-      - 3R
-      - 本体关系
+    - name: 写作云
+      attributes:
+        - 原型
+        - 框架
+    - name: 方法论
+      attributes:
+        - 3R
+        - 本体关系
   causals:
     - condition: 原型验证可行
       outcome: 框架成型
@@ -262,7 +280,7 @@
     - 适用于叙事工程
     - 排除非结构化写作
     - 需要足够碎片积累后才能整合
-  dynamics:
+  properties:
     迭代周期: 随整合加速
   mappings:
     - intent: 打磨写作云
