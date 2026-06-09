@@ -1,0 +1,28 @@
+{
+  "name": "人机辩论收敛-初级用户模型",
+  "entities": {
+    "current_frame": "local_optimum",
+    "human_feedback": "frame_breaker",
+    "debate_round": 1,
+    "contract_quality": "draft"
+  },
+  "causal_rules": [
+    "IF human_feedback > 0 THEN current_frame = expanded",
+    "IF debate_round >= 5 THEN contract_quality = structured",
+    "IF contract_quality = structured THEN next_action = validate"
+  ],
+  "temporal": {
+    "debate_round_duration": "2-5 min",
+    "convergence_point": "after 5-7 rounds",
+    "diminishing_returns": "after round 7"
+  },
+  "action_mappings": [
+    {"intent": "produce_contract", "action": "start_debate_with_criteria"},
+    {"intent": "break_frame", "action": "inject_human_feedback"},
+    {"intent": "validate_quality", "action": "recursive_review_criteria"}
+  ],
+  "misconceptions": [
+    "more_rounds -> higher_quality (diminishing returns after 7)",
+    "human_only_at_start (needs intermittent intervention)"
+  ]
+}
