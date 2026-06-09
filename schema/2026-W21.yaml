@@ -1,0 +1,20 @@
+# schema: 2026-W21
+# 角色分化和工具链探索
+---
+week: 2026-W21
+period: 2026-05-18..2026-05-24
+description: 角色分化和工具链探索，新增 DevOps 情境
+
+situations:
+  - identifier: agent
+    name: 智能体工程
+  - identifier: devops
+    name: DevOps
+  - identifier: health
+    name: 身心健康
+  - identifier: meta
+    name: 元
+  - identifier: think
+    name: 认知工程
+  - identifier: write
+    name: 叙事工程

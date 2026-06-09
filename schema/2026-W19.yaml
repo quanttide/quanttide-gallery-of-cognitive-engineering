@@ -1,0 +1,95 @@
+# schema: 2026-W19
+# 认知工程早期探索阶段
+---
+week: 2026-W19
+period: 2026-05-04..2026-05-10
+description: 认知工程早期探索，情境和意图的基本概念形成
+
+situations:
+  - identifier: agent
+    name: 智能体工程
+  - identifier: business
+    name: 商务拓展
+  - identifier: health
+    name: 身心健康
+  - identifier: infra
+    name: 基础设施
+  - identifier: meta
+    name: 元
+  - identifier: think
+    name: 认知工程
+
+intention_schema:
+  - field: id
+    type: uuid
+    required: true
+  - field: title
+    type: string
+    required: true
+  - field: description
+    type: string
+    required: true
+  - field: motivation
+    type: string
+    required: true
+  - field: agent
+    type: ref
+    required: true
+    values:
+      - founder
+      - founder_ai
+      - ai
+  - field: level
+    type: ref
+    required: true
+    values:
+      - top
+      - middle
+      - bottom
+  - field: priority
+    type: ref
+    required: true
+    values:
+      - high
+      - medium
+      - low
+  - field: trigger
+    type: ref
+    required: true
+    values:
+      - persistent
+      - conditional
+  - field: risk
+    type: ref
+    required: true
+    values:
+      - high
+      - medium
+      - low
+
+situation_schema:
+  - field: id
+    type: uuid
+    required: true
+  - field: name
+    type: string
+    required: true
+  - field: label
+    type: string
+    required: true
+  - field: content
+    type: struct
+    required: true
+    fields:
+      - field: agenda
+        type: string
+        description: 任务与目标描述
+      - field: ecology
+        type: string
+        description: 外部环境与系统状态
+      - field: frame
+        type: string
+        description: 用户心理表征
+      - field: dynamics
+        type: string
+        description: 动态时间演化

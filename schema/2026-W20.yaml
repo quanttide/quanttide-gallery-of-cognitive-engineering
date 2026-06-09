@@ -1,0 +1,20 @@
+# schema: 2026-W20
+# 方法论初步规范化
+---
+week: 2026-W20
+period: 2026-05-11..2026-05-17
+description: 方法论初步规范化，新增创新管理和叙事工程情境
+
+situations:
+  - identifier: agent
+    name: 智能体工程
+  - identifier: business
+    name: 商务拓展
+  - identifier: health
+    name: 身心健康
+  - identifier: infra
+    name: 基础设施
+  - identifier: innov
+    name: 创新管理
+  - identifier: write
+    name: 叙事工程

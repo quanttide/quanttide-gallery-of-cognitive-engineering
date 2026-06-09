@@ -1,0 +1,18 @@
+# schema: 2026-W22
+# 组织管理出现，情境聚焦
+---
+week: 2026-W22
+period: 2026-05-25..2026-05-31
+description: 组织管理出现，情境聚焦为 5 个核心关切
+
+situations:
+  - identifier: business
+    name: 商务拓展
+  - identifier: health
+    name: 身心健康
+  - identifier: innov
+    name: 创新管理
+  - identifier: org
+    name: 组织管理
+  - identifier: think
+    name: 认知工程
