@@ -24,6 +24,35 @@ lab（examples/default/）← 工具消费方
 - lab 生成的推理产物（`reports/`、`schemas.yaml`）不写回 gallery
 - gallery 的数据只能通过人工审核后修改，不通过工具自动写入
 
+## 心智模型抽取规范
+
+### 数据来源对比
+
+| 来源 | 信噪比 | 最佳贡献字段 | 局限 |
+|------|--------|-------------|------|
+| **`thought/`**（原始文本） | 低 | `causals`（完整推理链）、`biases`（直觉错误） | 表述不精确，需筛选 |
+| **`situation/`**（情境） | 高 | `entities`（核心概念）、`frame`（认知框架）、`dynamics`（时间演化） | 丢失原始语境，偏差不显式 |
+| **`intention/`**（意图） | 高 | `motivation`（因果动因）、`trigger`（动态参数）、`priority/risk`（属性） | 仅覆盖有意识的目标 |
+
+### 字段来源映射
+
+| 心智模型字段 | 主要来源 | 辅助来源 |
+|-------------|---------|---------|
+| `entities` | 情境 `frame` | — |
+| `causals` | 想法日志（推理链条） | 意图 `motivation` |
+| `boundaries` | 情境 + 想法日志 | — |
+| `properties` | 情境 `frame` | 意图 `priority`, `risk` |
+| `dynamics` | 情境 `dynamics` | 意图 `trigger` |
+| `mappings` | **意图**（结构化 intent-action） | 情境 `agenda` |
+| `biases` | 想法日志（事后反思） | — |
+
+### 抽取流程
+
+1. **骨架**：以情境的 `frame` 字段为骨架，提取核心实体和认知框架
+2. **因果**：从想法日志中提取推理链条，用意图的 `motivation` 补充动因
+3. **映射**：以意图 YAML 为主体，提取结构化的 intent-action 对
+4. **偏差**：从想法日志中的直觉判断和事后反思提取常见误解
+
 ## 原则
 
 - 本仓库不推理关系，不生成分析——只保留可追溯的事实源
