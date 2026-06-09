@@ -1,7 +1,7 @@
 - id: 550e8400-e29b-41d4-a716-446655440007
   name: agent
-  label: "场景驱动的智能体工程"
-  usage: "当需要从通用框架探索转向场景驱动开发，收敛AI智能体研发方向时使用"
+  label: 智能体工程
+  usage: 当需要从通用框架探索转向场景驱动开发，收敛AI智能体研发方向时使用
   entities:
     - name: AI智能体
       attributes:
@@ -52,8 +52,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440008
   name: devops
-  label: "作为自动化桥梁的DevOps"
-  usage: "当需要将手工运维流程标准化，建立开发与基础设施之间的自动化流水线时使用"
+  label: DevOps
+  usage: 当需要将手工运维流程标准化，建立开发与基础设施之间的自动化流水线时使用
   entities:
     - name: 开发
       attributes:
@@ -104,8 +104,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440009
   name: health
-  label: "作为元约束的心理预算管理"
-  usage: "当在持续高压的认知探索工作中需要维持心理可持续性，应对周期性无意义感时使用"
+  label: 身心健康
+  usage: 当在持续高压的认知探索工作中需要维持心理可持续性，应对周期性无意义感时使用
   entities:
     - name: 心理健康
       attributes:
@@ -156,8 +156,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440010
   name: meta
-  label: "标准化并入元智能"
-  usage: "当标准化与元智能职能持续重叠，独立维护负担超过其价值，需要降低治理复杂度时使用"
+  label: 元
+  usage: 当标准化与元智能职能持续重叠，独立维护负担超过其价值，需要降低治理复杂度时使用
   entities:
     - name: 标准化
       attributes:
@@ -208,8 +208,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440011
   name: think
-  label: "范畴论作为认知工程的形式化语言"
-  usage: "当需要精确描述认知结构之间的关系，用数学工具对认知工程进行形式化建模时使用"
+  label: 认知工程
+  usage: 当需要精确描述认知结构之间的关系，用数学工具对认知工程进行形式化建模时使用
   entities:
     - name: 范畴论
       attributes:
@@ -262,8 +262,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440012
   name: write
-  label: "叙事工程的3R方法论"
-  usage: "当需要从自由创作转向结构化创作，用Review/Reflection/Rewrite框架提升创作效率和产出质量时使用"
+  label: 叙事工程
+  usage: 当需要从自由创作转向结构化创作，用Review/Reflection/Rewrite框架提升创作效率和产出质量时使用
   entities:
     - name: 叙事工程
       attributes:
@@ -315,8 +315,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440013
   name: infra
-  label: "工具链减法原则"
-  usage: "当工具链功能膨胀导致维护负担超过使用价值，需要系统性地移除冗余功能时使用"
+  label: 基础设施
+  usage: 当工具链功能膨胀导致维护负担超过使用价值，需要系统性地移除冗余功能时使用
   entities:
     - name: 工具链
       attributes:

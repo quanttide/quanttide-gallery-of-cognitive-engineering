@@ -1,7 +1,7 @@
 - id: 550e8400-e29b-41d4-a716-446655440001
   name: think
-  label: "认知工程"
-  usage: "当需要理解或构建人与AI协作的认知框架时使用"
+  label: 认知工程
+  usage: 当需要理解或构建人与AI协作的认知框架时使用
   entities:
     - name: 认知工程
       attributes:
@@ -59,8 +59,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440002
   name: agent
-  label: "AI智能体应用框架"
-  usage: "当需要在命令行环境中构建AI代理系统时使用"
+  label: 智能体工程
+  usage: 当需要在命令行环境中构建AI代理系统时使用
   entities:
     - name: AI智能体
       attributes:
@@ -108,8 +108,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440003
   name: business
-  label: "商务拓展与章程驱动流程"
-  usage: "当需要从咨询业务向多模式收入拓展，或建立标准化商务流程时使用"
+  label: 商务拓展
+  usage: 当需要从咨询业务向多模式收入拓展，或建立标准化商务流程时使用
   entities:
     - name: 章程
       attributes:
@@ -157,8 +157,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440004
   name: health
-  label: "高压探索中的心理健康调节"
-  usage: "当在高强度认知探索工作中需要维持心理可持续性时使用"
+  label: 身心健康
+  usage: 当在高强度认知探索工作中需要维持心理可持续性时使用
   entities:
     - name: 心理健康
       attributes:
@@ -206,8 +206,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440005
   name: infra
-  label: "基础设施安全治理"
-  usage: "当需要建立或评估代码基础设施的安全性和可靠性时使用"
+  label: 基础设施
+  usage: 当需要建立或评估代码基础设施的安全性和可靠性时使用
   entities:
     - name: 基础设施
       attributes:
@@ -260,8 +260,8 @@
 
 - id: 550e8400-e29b-41d4-a716-446655440006
   name: meta
-  label: "元认知反思体系"
-  usage: "当认知系统本身的概念体系快速演化，需要系统性地自我理解与规范化时使用"
+  label: 元
+  usage: 当认知系统本身的概念体系快速演化，需要系统性地自我理解与规范化时使用
   entities:
     - name: 元认知
       attributes:
