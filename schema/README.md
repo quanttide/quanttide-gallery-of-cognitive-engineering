@@ -8,12 +8,14 @@
 - id: <uuid>
   label: "<名称>"
   entities:
-    - <实体1>:
+    - name: <实体1>
+      attributes:
         - <属性1>
         - <属性2>
-        - <属性3>: [<值1>, <值2>]
-    - <实体2>:
+    - name: <实体2>
+      attributes:
         - <属性1>
+        - <属性2>
   causals:
     - condition: "<条件>"
       outcome: "<结果>"
@@ -22,7 +24,7 @@
   boundaries:
     - "<边界条件>"
     - "<边界条件>"
-  dynamics:
+  properties:
     <属性1>: "<值>"
     <属性2>: "<值>"
   mappings:
@@ -42,13 +44,16 @@
 - id: <uuid>
   label: "智能恒温器"
   entities:
-    - thermostat:
+    - name: 恒温器
+      attributes:
         - current_temperature
         - target_temperature
-        - mode: [heat, cool, auto]
-    - temperature_sensor:
+        - mode
+    - name: 温度传感器
+      attributes:
         - measures_indoor_temperature
-    - heating_cooling_device:
+    - name: 加热制冷设备
+      attributes:
         - status
         - power
   causals:
@@ -60,7 +65,7 @@
     - "仅适用于住宅单一房间"
     - "忽略室外温度影响"
     - "不考虑设备延迟"
-  dynamics:
+  properties:
     heating_rate: "0.5 摄氏度/分钟"
     natural_cooling_rate: "0.2 摄氏度/分钟"
     startup_delay: "0 秒"
