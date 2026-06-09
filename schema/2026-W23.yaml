@@ -20,8 +20,10 @@
     - 排除高投入长期项目
     - 验证周期不超过两周
   properties:
-    验证成本: 低
-    复制效率: 高
+    - key: 验证成本
+      value: 低
+    - key: 复制效率
+      value: 高
   mappings:
     - intent: 探索新商业模式
       action: 做POC验证
@@ -53,8 +55,10 @@
     - 排除短期冲刺场景
     - 需要操作者对自身状态有觉察能力
   properties:
-    恢复成本: 高
-    维护频率: 每日
+    - key: 恢复成本
+      value: 高
+    - key: 维护频率
+      value: 每日
   mappings:
     - intent: 保持心理可持续
       action: 早睡早起并切换到低耗能模式
@@ -88,7 +92,8 @@
     - 排除单机简单场景
     - 需要至少三个实例才进入抽象层
   properties:
-    抽象风险: 随复杂度递增
+    - key: 抽象风险
+      value: 随复杂度递增
   mappings:
     - intent: 防数据丢失
       action: 建立自动化备份
@@ -120,7 +125,8 @@
     - 排除纯机械重复任务
     - 需要AI达到可补全的质量水平
   properties:
-    循环速度: 随自动化程度提升
+    - key: 循环速度
+      value: 随自动化程度提升
   mappings:
     - intent: 快速发现洞察
       action: 启动POC，AI作为补全器
@@ -152,7 +158,8 @@
     - 排除一次性规则制定
     - 需要系统运行至少三个月有足够演化数据
   properties:
-    成熟度: 随迭代递增
+    - key: 成熟度
+      value: 随迭代递增
   mappings:
     - intent: 建立标准化
       action: 归并冗余规则集
@@ -184,7 +191,8 @@
     - 排除成熟大企业
     - 需要创始人对组织温度有敏感性
   properties:
-    温度损失: 随制度化速度递增
+    - key: 温度损失
+      value: 随制度化速度递增
   mappings:
     - intent: 应对人员流失
       action: 建立反脆弱机制
@@ -217,7 +225,8 @@
     - 排除传统文档编辑
     - 需要AI底层操作足够可靠
   properties:
-    适应度: 随范式转变提升
+    - key: 适应度
+      value: 随范式转变提升
   mappings:
     - intent: 适应AI表达
       action: 设计可编辑阅读器
@@ -249,7 +258,8 @@
     - 排除单机推理
     - 需要以章程为辩论目标
   properties:
-    收敛速度: 随反馈质量提升
+    - key: 收敛速度
+      value: 随反馈质量提升
   mappings:
     - intent: 发现意图
       action: 进行人机辩论
@@ -281,7 +291,8 @@
     - 排除非结构化写作
     - 需要足够碎片积累后才能整合
   properties:
-    迭代周期: 随整合加速
+    - key: 迭代周期
+      value: 随整合加速
   mappings:
     - intent: 打磨写作云
       action: 从原型到框架迭代

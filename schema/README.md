@@ -25,8 +25,10 @@
     - "<边界条件>"
     - "<边界条件>"
   properties:
-    <属性1>: "<值>"
-    <属性2>: "<值>"
+    - key: <属性1>
+      value: "<值>"
+    - key: <属性2>
+      value: "<值>"
   mappings:
     - intent: "<意图>"
       action: "<操作>"
@@ -66,9 +68,12 @@
     - "忽略室外温度影响"
     - "不考虑设备延迟"
   properties:
-    heating_rate: "0.5 摄氏度/分钟"
-    natural_cooling_rate: "0.2 摄氏度/分钟"
-    startup_delay: "0 秒"
+    - key: heating_rate
+      value: "0.5 摄氏度/分钟"
+    - key: natural_cooling_rate
+      value: "0.2 摄氏度/分钟"
+    - key: startup_delay
+      value: "0 秒"
   mappings:
     - intent: "变暖和"
       action: "调高设定温度"
