@@ -1,0 +1,35 @@
+- source: health
+  target: agent
+  relation_type: support
+  confidence: high
+  description: 健康作为底层意图维持高强度认知工作所需的精力，为System One/Two双引擎架构的持续迭代提供身心前提，身体疲惫峰值直接制约AI协作范式设计质量
+- source: health
+  target: business
+  relation_type: support
+  confidence: high
+  description: 健康为营收压力和团队流动下的管理风格转型提供心理韧性，"不敢说困难"的认知突破是管理风格从柔软转向"六亲不认"的前提
+- source: innov
+  target: agent
+  relation_type: support
+  confidence: medium
+  description: 创新管理的重构循环方法论与智能体工程的Vibe Coding理念共享同一核心实体，重构作为Vibe Coding第一等公民直接支撑System One/Two架构的迭代效率
+- source: innov
+  target: infra
+  relation_type: support
+  confidence: medium
+  description: 创新管理的重构即探索方法论为基础设施的"自我标准化"提供可操作的工程循环，标准作为核心价值的认知在两者Frame中同步涌现
+- source: business
+  target: health
+  relation_type: trigger
+  confidence: medium
+  description: 人员离职冲击和营收压力直接触发身体疲惫峰值和情感隔离应对策略，商业焦虑转化为"不敢说困难"在现实与创作中的同构觉察
+- source: write
+  target: health
+  relation_type: support
+  confidence: medium
+  description: 叙事工程的小说创作作为情绪出口和认知整合入口，直接服务于身心健康的情绪调节机制，"小说作为默认整合入口"是压力释放的结构化通道
+- source: business
+  target: innov
+  relation_type: support
+  confidence: medium
+  description: 商业压力直接转化为产品需求，组织记忆需求成为平台建设的业务驱动力，营收紧迫性为创新管理的重构循环提供外部节奏约束
