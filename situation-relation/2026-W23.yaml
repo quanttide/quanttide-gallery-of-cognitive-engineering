@@ -1,0 +1,89 @@
+- source: health
+  target: think
+  relation_type: support
+  confidence: high
+  description: 健康作为元意图保障认知能力可持续，使人机辩论与意图工程的高强度认知工作得以持续运作
+
+- source: health
+  target: org
+  relation_type: support
+  confidence: high
+  description: 健康为组织危机应对提供基础精力保障，整合带来清晰感的对冲机制让创始人有心理空间处理团队韧性压力测试
+
+- source: innov
+  target: business
+  relation_type: support
+  confidence: high
+  description: 商务拓展的Frame明确宣称"商业模式探索是商业领域的POC"，创新管理的POC范式直接为商务验证提供方法论和验证手段（POC/章程/原型），两个Schema的entities高度同构
+
+- source: think
+  target: write
+  relation_type: support
+  confidence: high
+  description: 意图工程作为认知工程核心方法论为叙事工程提供意图驱动的基本单元，人机辩论→章程生成的因果链直接支撑写作云从原型到框架的迭代
+
+- source: think
+  target: product
+  relation_type: support
+  confidence: medium
+  description: 意图工程的统一框架为AI交互范式设计提供理论基础，人类反馈打破AI局部最优的认知机制解释了为何需要从阅读器视角而非编辑器视角重新设计交互
+
+- source: meta
+  target: infra
+  relation_type: support
+  confidence: medium
+  description: 元智能的标准化治理方案（合并冗余规则、系统自我维护）直接解决基础设施面临的工具链归属不清和架构边界模糊问题，从被动防守升级为主动设计
+
+- source: infra
+  target: innov
+  relation_type: support
+  confidence: medium
+  description: 安全可靠的平台基础设施（自动化备份、消息队列、Rust重写）为快速POC探索提供稳定的实验环境，降低实验风险和数据丢失成本
+
+- source: write
+  target: product
+  relation_type: support
+  confidence: medium
+  description: 写作云的叙事工程框架（3R方法论、母题与风格本体关系）为可编辑阅读器提供了具体的创作场景和内容实验素材，范式关键词（框架/边界/迭代）在两者Frame中共现
+
+- source: health
+  target: org
+  relation_type: conflict
+  confidence: medium
+  description: 健康意图要求低耗能节奏和意义维护，而组织危机独占当周首要关注，高强度应急响应与身心可持续需求争夺同一认知情感资源
+
+- source: think
+  target: innov
+  relation_type: conflict
+  confidence: medium
+  description: 认知工程的意图工程需要结构化收敛（辩论→章程），创新管理的POC范式强调快速试错和松散探索，思考意图的风险描述已明确指出"POC范式与结构化收敛存在张力"
+
+- source: innov
+  target: meta
+  relation_type: conflict
+  confidence: medium
+  description: 创新管理的快速POC和低耗能模式产生大量新实体和变化，与元职能的标准化和规则归并需求在节奏上冲突——速度与秩序、探索与收敛之间的固有矛盾
+
+- source: org
+  target: meta
+  relation_type: conflict
+  confidence: medium
+  description: 组织管理的制度化需求（法治）与温度保留（人治）之间需保持平衡，而元职能的纯粹标准化倾向若过度推进将加速组织温度流失，偏离org意图寻求的中间态
+
+- source: org
+  target: health
+  relation_type: trigger
+  confidence: high
+  description: 财务离职冲击（组织韧性压力测试）直接触发身心健康危机——高强度应对、不确定性焦虑、工作量激增加剧疲劳和无意义感
+
+- source: innov
+  target: write
+  relation_type: trigger
+  confidence: medium
+  description: 创新管理通过POC验证成功（"默认日志作为POC入口效果显著"）驱动整合力量，触发叙事工程从碎片积累到框架成型的上升循环
+
+- source: innov
+  target: product
+  relation_type: trigger
+  confidence: medium
+  description: 创新管理周期中发现AI表达日益多样化并超越传统文档边界，触发产品研发对可编辑阅读器和块编辑器等新交互范式的探索需求
