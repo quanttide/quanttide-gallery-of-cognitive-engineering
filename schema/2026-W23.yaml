@@ -1,0 +1,131 @@
+# schema: 2026-W23
+# 范式确立周 — 意图工程概念确立，POC 范式方法论化
+---
+week: 2026-W23
+period: 2026-06-01..2026-06-07
+description: 意图工程概念确立，POC 范式方法论化，9 个情境全量激活
+
+situations:
+  - identifier: org
+    name: 组织管理
+  - identifier: infra
+    name: 基础设施
+  - identifier: write
+    name: 叙事工程
+  - identifier: think
+    name: 认知工程
+  - identifier: innov
+    name: 创新管理
+  - identifier: meta
+    name: 元
+  - identifier: business
+    name: 商务拓展
+  - identifier: product
+    name: 产品研发
+  - identifier: health
+    name: 身心健康
+
+mental_models:
+  - name: 人机辩论收敛模型
+    source: think
+    entities:
+      human: { role: frame_breaker, capacity: long_memory }
+      ai: { role: debater, limitation: local_optimum }
+      contract: { type: structured_output, example: 章程 }
+    causal_rules:
+      - "IF ai_self_conv at local_optimum THEN human_feedback breaks_frame"
+      - "IF debate targets contract THEN boundary converges"
+    temporal: { single_round: 2-5min, diminishing_returns: after 5-7 rounds }
+    key_evidence: "06-06 — AI 自己收敛只能在一个状态之下收敛，人类反馈丢进去会让 AI 跳出现有框架"
+    predictions:
+      - "收敛质量与辩论轮次正相关但收益递减"
+      - "W24 需校准人类介入的最佳频率"
+
+  - name: 整合驱动上升循环模型
+    source: write
+    entities:
+      fragments: { type: unintegrated_discoveries }
+      integration: { operations: [discard, merge, restructure] }
+      clarity: { type: cognitive_state, effect: enables_new_discovery }
+    causal_rules:
+      - "IF integration executed THEN framework_clarity increases"
+      - "IF no integration THEN fragmentation grows AND cognitive_load increases"
+    temporal: { accumulation: days-weeks, integration_session: hours }
+    key_evidence: "06-07 — 丢弃了这一大堆概念之后，叙事工程的框架在空前的清晰起来"
+    predictions:
+      - "整合频率应与产出速度正相关"
+      - "W24 应主动设计整合节点而非被动应对"
+
+  - name: 心理预算约束模型
+    source: health
+    entities:
+      budget: { type: finite_resource, per_cycle: 3-4 days high intensity }
+      low_energy_mode: { strategy: ai_autocomplete + deferred_decisions }
+      meaninglessness: { type: depletion_signal }
+      integration_sense: { type: recovery_mechanism }
+    causal_rules:
+      - "IF budget depleted THEN meaninglessness AND escapist_behavior"
+      - "IF integration executed THEN partial_budget recovery"
+    temporal: { full_to_depleted: 3-4 days, recovery: half-day low intensity }
+    key_evidence: "06-03 低耗能+06-06/07 无意义感反复出现+整合完脑子清楚多了"
+    predictions:
+      - "W24 第 3-4 天将出现替代性抽离行为"
+      - "心理预算是研发/管理/健康三个情境的隐藏约束变量"
+
+  - name: POC-收敛交替循环模型
+    source: [think, innov]
+    entities:
+      poc: { role: divergence, motto: 做了再想 }
+      intent_engineering: { role: convergence, motto: 想清楚再做 }
+      cycle: { phases: [diverge, converge, rediverge, reconverge] }
+    causal_rules:
+      - "IF poc active THEN fragments emerge rapidly"
+      - "IF intent_engineering intervenes THEN fragments structured into contracts"
+      - "IF only divergence THEN cognitive overload"
+    temporal: { poc_phase: hours-days, convergence_phase: days-week, full_cycle: 1-2 weeks }
+    key_evidence: "W23 同时确立 POC 范式方法论化和意图工程概念——循环的两端都已就位"
+    predictions:
+      - "下一阶段关键是让循环跑起来而非分别优化两端"
+
+  - name: 法治-人情同步演化模型
+    source: org
+    entities:
+      rule_of_law: { type: institution, attributes: [规则, 流程, 标准化] }
+      human_touch: { type: temperature, attributes: [信任, 文化, 情感连接] }
+      subtle_middle: { type: target_state, description: 法治底色+人情温度并存 }
+      narrative: { type: bridge, description: 以情感为基础的法 }
+    causal_rules:
+      - "IF only institutionalize THEN temperature drops AND competitiveness declines"
+      - "IF introduce narrative THEN rule_of_law can coexist with human_touch"
+    temporal: { short_term: emergency, medium_term: parallel, long_term: narrative_as_institutionalized_warmth }
+    key_evidence: "06-04 之前那种温度没有了需要微妙的中间态; 06-06 讲故事是另外一种法基于情感的法"
+    predictions:
+      - "微妙中间态可能通过意图工程的共识机制实现"
+
+  - name: 抽象收益递减模型
+    source: infra
+    entities:
+      abstraction: { role: navigation, effect: reduces_duplication }
+      over_abstraction: { effect: premature_effort_for_nonexistent_needs }
+      system_maturity: { role: abstraction_level_determinant }
+    causal_rules:
+      - "IF abstraction matches maturity THEN design_efficiency optimal"
+      - "IF abstraction precedes demand THEN burden increases with zero return"
+    temporal: { inflection_point: when 3rd instance appears }
+    key_evidence: "06-05 抽象是必要的导航仪，过度抽象是有害的，为不存在的需求预支精力没有必要"
+    predictions:
+      - "可形式化为决策规则：在抽象前确认至少 3 个实例"
+
+  - name: 元职能涌现模型
+    source: [meta, health]
+    entities:
+      base_system: { role: value_producer }
+      meta_function: { types: [standardization, psychological_sustainability] }
+      maturity: { effect: determines meta_function_independence_need }
+    causal_rules:
+      - "IF meta_function artificially separated THEN maintenance_burden increases"
+      - "IF meta_function emerges naturally THEN governance_cost minimal"
+    temporal: { v1: 不是完全体是从幼年期进入成长期 }
+    key_evidence: "标准化合并回元职能；身心健康作为元意图——保障其他所有意图能够持续运作的基础条件"
+    predictions:
+      - "标准化需求将随元智能提升自动降低"
