@@ -29,7 +29,7 @@
       action: 先小规模试错
   biases:
     - id: b1c2d3e4-f5a6-7890-bcde-f12345678901
-      misconception: 所有想法都值得先投入
+      belief: 所有想法都值得先投入
       fact: 低门槛验证可快速筛选无效想法
 
 - id: b2c3d4e5-f6a7-8901-cdef-123456789012
@@ -62,7 +62,7 @@
       action: 执行整合
   biases:
     - id: c2d3e4f5-a6b7-8901-def2-345678901234
-      misconception: 高压探索必须牺牲健康
+      belief: 高压探索必须牺牲健康
       fact: 元意图保障可维持长期产出
 
 - id: c3d4e5f6-a7b8-9012-ef34-567890123456
@@ -96,7 +96,7 @@
       action: 标准化治理
   biases:
     - id: d3e4f5a6-b7c8-9012-ef45-678901234567
-      misconception: 备份越多越安全
+      belief: 备份越多越安全
       fact: 体系化治理比堆叠备份更有效
 
 - id: d4e5f6a7-b8c9-0123-f456-789012345678
@@ -128,7 +128,7 @@
       action: 依赖AI自动化，人类仅提供方向
   biases:
     - id: e4f5a6b7-c8d9-0123-f567-890123456789
-      misconception: AI可完全替代人类洞察
+      belief: AI可完全替代人类洞察
       fact: 人类反馈是打破AI局部最优的关键
 
 - id: e5f6a7b8-c9d0-1234-5678-901234567890
@@ -160,7 +160,7 @@
       action: 培养元智能而非推动标准化本身
   biases:
     - id: f5a6b7c8-d9e0-1234-6789-012345678901
-      misconception: 标准化是终点工作
+      belief: 标准化是终点工作
       fact: 标准化是元智能的自然产出
 
 - id: f6a7b8c9-d0e1-2345-7890-123456789012
@@ -192,7 +192,7 @@
       action: 法治与人治同步推进
   biases:
     - id: a6b7c8d9-e0f1-2345-7890-123456789012
-      misconception: 招人补位即可解决
+      belief: 招人补位即可解决
       fact: 制度化才是根本但需保留温度
 
 - id: a7b8c9d0-e1f2-3456-8901-234567890123
@@ -225,7 +225,7 @@
       action: 分解组件分别设计
   biases:
     - id: b7c8d9e0-f1a2-3456-8901-234567890123
-      misconception: 改进UI技巧即可
+      belief: 改进UI技巧即可
       fact: 需要范式级重构
 
 - id: b8c9d0e1-f2a3-4567-9012-345678901234
@@ -257,7 +257,7 @@
       action: 将辩论产物结构化
   biases:
     - id: c8d9e0f1-a2b3-4567-9012-345678901234
-      misconception: AI可自行收敛到最优
+      belief: AI可自行收敛到最优
       fact: 人类反馈是打破框架的关键
 
 - id: c9d0e1f2-a3b4-5678-0123-456789012345
@@ -289,5 +289,5 @@
       action: 利用整合力量
   biases:
     - id: d9e0f1a2-b3c4-5678-0123-456789012345
-      misconception: 框架可一次性建成
+      belief: 框架可一次性建成
       fact: 需要从原型迭代成型
