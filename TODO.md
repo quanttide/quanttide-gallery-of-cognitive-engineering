@@ -13,8 +13,3 @@
 - [ ] 跨周追踪检查：某 `name` 在不同周都有 situation 和 intention 对应
 - [ ] 孤岛检测：标记只有 situation 没有 intention（或反之）的周
 
-## 层次三：数据浏览工具
-
-- [ ] 周报生成器：按周自动拼合 situation + intention + thought
-- [ ] 演化追踪：给定 `name` 列出所有周的变化摘要
-- [ ] 关系图导出：从 causal_rules 提取关系图
