@@ -29,6 +29,9 @@
       value: "<值>"
     - key: <属性2>
       value: "<值>"
+  dynamics:
+    - key: <时间属性>
+      value: "<值>"
   mappings:
     - intent: "<意图>"
       action: "<操作>"
@@ -68,6 +71,11 @@
     - "忽略室外温度影响"
     - "不考虑设备延迟"
   properties:
+    - key: 设备类型
+      value: "分体式空调"
+    - key: 工作模式
+      value: "制冷"
+  dynamics:
     - key: heating_rate
       value: "0.5 摄氏度/分钟"
     - key: natural_cooling_rate

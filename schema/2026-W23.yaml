@@ -57,6 +57,7 @@
   properties:
     - key: 恢复成本
       value: 高
+  dynamics:
     - key: 维护频率
       value: 每日
   mappings:
@@ -92,6 +93,9 @@
     - 排除单机简单场景
     - 需要至少三个实例才进入抽象层
   properties:
+    - key: 治理方式
+      value: 主动设计
+  dynamics:
     - key: 抽象风险
       value: 随复杂度递增
   mappings:
@@ -125,6 +129,9 @@
     - 排除纯机械重复任务
     - 需要AI达到可补全的质量水平
   properties:
+    - key: 协作模式
+      value: 人机互补
+  dynamics:
     - key: 循环速度
       value: 随自动化程度提升
   mappings:
@@ -158,7 +165,10 @@
     - 排除一次性规则制定
     - 需要系统运行至少三个月有足够演化数据
   properties:
-    - key: 成熟度
+    - key: 治理目标
+      value: 系统自我维护
+  dynamics:
+    - key: 成熟度演化
       value: 随迭代递增
   mappings:
     - intent: 建立标准化
@@ -191,7 +201,10 @@
     - 排除成熟大企业
     - 需要创始人对组织温度有敏感性
   properties:
-    - key: 温度损失
+    - key: 转型方式
+      value: 同步推进
+  dynamics:
+    - key: 温度损失速率
       value: 随制度化速度递增
   mappings:
     - intent: 应对人员流失
@@ -225,6 +238,9 @@
     - 排除传统文档编辑
     - 需要AI底层操作足够可靠
   properties:
+    - key: 核心假设
+      value: 阅读为主，编辑为辅
+  dynamics:
     - key: 适应度
       value: 随范式转变提升
   mappings:
@@ -258,6 +274,9 @@
     - 排除单机推理
     - 需要以章程为辩论目标
   properties:
+    - key: 收敛机制
+      value: 人类反馈打破局部最优
+  dynamics:
     - key: 收敛速度
       value: 随反馈质量提升
   mappings:
@@ -291,6 +310,9 @@
     - 排除非结构化写作
     - 需要足够碎片积累后才能整合
   properties:
+    - key: 成长模式
+      value: 从原型迭代成型
+  dynamics:
     - key: 迭代周期
       value: 随整合加速
   mappings:
