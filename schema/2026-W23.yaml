@@ -1,5 +1,6 @@
 - id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
   label: 低门槛验证
+  usage: 适用于产品经理和创业者评估新想法时参考
   entities:
     - name: 新想法
       attributes:
@@ -33,9 +34,13 @@
     - id: b1c2d3e4-f5a6-7890-bcde-f12345678901
       belief: 所有想法都值得先投入
       fact: 低门槛验证可快速筛选无效想法
+    - id: b1c2d3e4-f5a6-7890-bcde-f12345678902
+      belief: 验证成功就等于有商业价值
+      fact: 验证成功只是技术可行，商业价值需要独立评估
 
 - id: b2c3d4e5-f6a7-8901-cdef-123456789012
   label: 元意图保障
+  usage: 适用于高压工作者自我状态检视时参考
   entities:
     - name: 元意图
       attributes:
@@ -72,6 +77,7 @@
 
 - id: c3d4e5f6-a7b8-9012-ef34-567890123456
   label: 体系化治理
+  usage: 适用于技术负责人设计基础设施策略时参考
   entities:
     - name: 基础设施
       attributes:
@@ -110,6 +116,7 @@
 
 - id: d4e5f6a7-b8c9-0123-f456-789012345678
   label: 人机协作循环
+  usage: 适用于研发团队设计人机协作流程时参考
   entities:
     - name: 人类
       attributes:
@@ -143,9 +150,13 @@
     - id: e4f5a6b7-c8d9-0123-f567-890123456789
       belief: AI可完全替代人类洞察
       fact: 人类反馈是打破AI局部最优的关键
+    - id: e4f5a6b7-c8d9-0123-f567-890123456788
+      belief: AI整合完成后人类可以彻底退出
+      fact: AI整合完成仍需人类审阅把关
 
 - id: e5f6a7b8-c9d0-1234-5678-901234567890
   label: 元智能成熟
+  usage: 适用于治理者评估系统成熟度时参考
   entities:
     - name: 元智能
       attributes:
@@ -182,6 +193,7 @@
 
 - id: f6a7b8c9-d0e1-2345-7890-123456789012
   label: 反脆弱转型
+  usage: 适用于创始人在组织转型期做决策时参考
   entities:
     - name: 团队
       attributes:
@@ -215,9 +227,13 @@
     - id: a6b7c8d9-e0f1-2345-7890-123456789012
       belief: 招人补位即可解决
       fact: 制度化才是根本但需保留温度
+    - id: a6b7c8d9-e0f1-2345-7890-123456789013
+      belief: 制度化必然失去温度
+      fact: 温度损失可通过叙事和文化机制对冲
 
 - id: a7b8c9d0-e1f2-3456-8901-234567890123
   label: 范式级交互
+  usage: 适用于设计师思考AI交互范式时参考
   entities:
     - name: AI表达
       attributes:
@@ -255,6 +271,7 @@
 
 - id: b8c9d0e1-f2a3-4567-9012-345678901234
   label: 意图工程
+  usage: 适用于认知工程研究和工具设计时参考
   entities:
     - name: 人类意图
       attributes:
@@ -291,6 +308,7 @@
 
 - id: c9d0e1f2-a3b4-5678-0123-456789012345
   label: 迭代框架成型
+  usage: 适用于产品经理管理框架演化时参考
   entities:
     - name: 写作云
       attributes:
