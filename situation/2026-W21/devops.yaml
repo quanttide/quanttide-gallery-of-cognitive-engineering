@@ -1,8 +1,0 @@
-id: e5f6a7b8-c9d0-1234-efab-345678901221
-name: devops
-label: DevOps
-content:
-  agenda: 用多语言（Python→Rust）实现覆盖发布、重构、审计、知识管理的 CLI 工具链，以自动化流水线固化研发习惯。
-  ecology: 从 Python 到 Rust 的迁移决策、DevOps CLI 和 Knowledge CLI 并行迭代、0.1→0.2 版本跃迁验证先实验再开发的范式、Rust 的结构化优势被发现、从写工具到工具链生态的跃迁。
-  frame: 将工具链建设理解为研发习惯的固化——CLI 是方法论的可执行载体，工具链生态让演化路径清晰可见，Rust 的结构化与 AI 适应性优于 Python。
-  dynamics: 从平台进度受限于库的瓶颈到 CLI 0.1 发布，再到工具链生态看清演化路径，最后 Rust 迁移和混合工程验证。
