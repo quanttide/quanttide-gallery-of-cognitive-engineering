@@ -1,5 +1,7 @@
 - name: founder
   label: 量潮创始人
+  long-name: quanttide-founder
 
 - name: company
   label: 量潮科技
+  long-name: quanttide-tech
