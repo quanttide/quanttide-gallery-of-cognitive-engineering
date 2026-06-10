@@ -1,7 +1,5 @@
 - name: founder
   label: 创始人
-  description: 个人认知——思想发源地，意图工程、人机辩论、身心健康、叙事写作
 
 - name: company
   label: 量潮科技
-  description: 组织认知——商务拓展、产品研发、组织管理、基础设施
