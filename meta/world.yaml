@@ -1,5 +1,10 @@
-- name: founder
-  label: 量潮创始人
+- name: quanttide
+  label: 量潮
 
-- name: company
+- name: quanttide-founder
+  label: 量潮创始人
+  parent: quanttide
+
+- name: quanttide-tech
   label: 量潮科技
+  parent: quanttide
